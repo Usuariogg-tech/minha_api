@@ -1,25 +1,41 @@
-# 🚀 API de Gerenciamento de Usuários
+🚀 API de Gerenciamento de Usuários
+API RESTful desenvolvida com foco em boas práticas de backend, organização de código e integração com banco de dados relacional.
 
-Uma API RESTful simplificada e eficiente desenvolvida para demonstrar habilidades em Back-end, utilizando Node.js e PostgreSQL.
+🧠 Objetivo
+Demonstrar habilidades em desenvolvimento backend utilizando Node.js, incluindo criação de APIs REST, manipulação de banco de dados e estruturação de projeto escalável.
 
-## 🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias Utilizadas
+Node.js (v20+)
+Express.js
+PostgreSQL
+node-postgres (pg)
+Nodemon
 
-* **Runtime:** Node.js (v20+)
-* **Framework:** Express
-* **Banco de Dados:** PostgreSQL
-* **Driver de BD:** `pg` (node-postgres)
-* **Ferramentas:** Nodemon (Desenvolvimento)
+⚙️ Funcionalidades
+✔️ Listagem de usuários
+✔️ Busca por ID
+✔️ Criação com validação de dados
+✔️ Atualização de registros
+✔️ Remoção de usuários
 
-## 📌 Funcionalidades
+🏗️ Estrutura do Projeto
+Organizado seguindo separação de responsabilidades:
+Routes → definição das rotas
+Controllers → lógica de requisição/resposta
+Services (se tiver) → regras de negócio
+Database → conexão com PostgreSQL
 
-- [x] Listar todos os usuários.
-- [x] Buscar usuário por ID.
-- [x] Criar novo usuário com validação de dados.
-- [x] Atualizar informações de usuários existentes.
-- [x] Deletar usuários do sistema.
+🔐 Boas Práticas Aplicadas
+Separação de camadas (arquitetura organizada)
+Tratamento de erros nas requisições
+Validação básica de dados de entrada
+Uso de padrões REST
 
-## ⚙️ Como rodar o projeto
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/Usuariogg-tech/gerenciamento_de_usuario.git](https://github.com/Usuariogg-tech/gerenciamento_de_usuario.git)
+▶️ Como executar
+
+Bash
+git clone https://github.com/Usuariogg-tech/gerenciamento_de_usuario.git
+cd gerenciamento_de_usuario
+npm install
+npm run dev
