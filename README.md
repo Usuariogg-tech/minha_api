@@ -22,4 +22,4 @@ Uma API RESTful simplificada e eficiente desenvolvida para demonstrar habilidade
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/Usuariogg-tech/gerenciamento_de_usuario.git](https://github.com/Usuariogg-tech/gerenciamento_de_usuario.git)
+   git clone [https://github.com/Usuariogg-tech/minha_api.git](https://github.com/Usuariogg-tech/minha_api.git)
