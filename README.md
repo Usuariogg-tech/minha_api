@@ -35,7 +35,7 @@ Uso de padrões REST
 ▶️ Como executar
 
 Bash
-git clone [https://github.com/Usuariogg-tech/gerenciamento_de_usuario](https://github.com/Usuariogg-tech/minha_api).git
+git clone [https://github.com/Usuariogg-tech/minha_api](https://github.com/Usuariogg-tech/minha_api).git
 cd gerenciamento_de_usuario
 npm install
 npm run dev
